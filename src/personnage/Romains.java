@@ -19,7 +19,7 @@ public class Romains {
 		return "Le romain " + nom + " : ";
 	}
 	
-	private void recevoirCoup(int coupForce) {
+	public void recevoirCoup(int coupForce) {
 		force -= coupForce;
 		
 		if (force > 0){
