@@ -2,8 +2,8 @@ package personnage;
 
 public class Village {
 	private String nom;
-	private Chef chef;
 	private int nbVillageoisMax;
+	private Chef chef;
 	private Gaulois[] villageois;
 	private int nbVillageois = 0;
 		
@@ -34,7 +34,8 @@ public class Village {
 	
 	public static void main(String[] arg) {
 		Village VillageDesIrreductibles;
-		VillageDesIrreductible = new Village("Village Des Irreductibles", 30);
+		VillageDesIrreductibles = new Village("Village Des Irreductibles", 30 , 0);
+		System.out.println(VillageDesIrreductibles.getNom());
 	}
 	
 }
