@@ -3,6 +3,7 @@ package personnage;
 public class Gaulois {
 	private String nom;
 	private int force;
+	private int effetPotion = 0;
 	
 	public Gaulois(String nom, int force) {
 		this.nom = nom;
@@ -23,7 +24,6 @@ public class Gaulois {
 		romain.recevoirCoup(force / 3);
 	}
 	
-	@Override
 	public String toString() {
 		return "Gaulois [nom=" + nom + ", force=" + force+ ", effetPotion=" + effetPotion + "]";
 	
